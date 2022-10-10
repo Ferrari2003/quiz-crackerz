@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 20px 30px 40px 50px b;
+    padding-left: 180px;
+    padding-right: 180px;
+    margin-bottom: 0;
+    cursor:pointer ;
+}
+.header nav a{
+    text-decoration: none;
+    margin-left: 20px;
+    text-align: center;
+}
