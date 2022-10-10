@@ -2,14 +2,37 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 20px 30px 40px 50px b;
-    padding-left: 180px;
-    padding-right: 180px;
+    box-shadow: 20px 30px 40px cornflowerblue;
+    background-color: crimson;
+    padding-left: 140px;
+    padding-right: 140px;
     margin-bottom: 0;
     cursor:pointer ;
+    font-style: italic;
+}
+
+.header h1:hover{
+    background: black;
+    color: white;
+    box-shadow: 20px 30px 40px white;
+    border-radius: 10px; 
+    transition: 1s ease-in-out; 
+   
 }
 .header nav a{
+   color: white;
     text-decoration: none;
     margin-left: 20px;
     text-align: center;
+    font-size: 21px;
+   font-style: italic;
 }
+
+.header a:hover{
+     border-bottom: 1px solid black;
+     font-size: 16px;
+     border-radius: 7px;
+     color: black;
+       
+ }
+ 
