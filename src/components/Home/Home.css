@@ -1,8 +1,19 @@
 .home-container{
-    margin: 100px;
+    margin: 130px;
+    
+}
+
+.text{
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text img{
+    width: 500px;
 }
 .cart-container{
     display: grid;
     grid-template-columns:repeat(4, 1fr) ;
-   gap: 45px;
+    gap: 45px;
 }

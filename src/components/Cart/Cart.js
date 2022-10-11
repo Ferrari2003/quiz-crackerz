@@ -5,12 +5,13 @@ import './Cart.css'
 
 const Cart = ({quiz}) => {
     const {name,logo,} = quiz
+   
     return (
-        <div className='carts'>
+        <div className='carts '>
            <img src={logo} alt="" />   
            <h3>{name}</h3> 
             <div className='btn'>
-                  <button>Start Practice </button>      
+             <button>Start Practice </button>      
 
             </div>
        </div>
