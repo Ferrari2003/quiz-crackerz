@@ -5,13 +5,9 @@ import './Home.css'
 import logo from '../../photos/quiz-word-red-d-letters-to-illustrate-exam-evaluation-assessment-to-measure-your-knowledge-expertise-44060147.jpg'
 
 
-
-
-
-
-const Home = () => {
-    const cards = useLoaderData([]);
-    const {data} = cards
+    const Home = () => {
+       const cards = useLoaderData([]);
+       const {data} = cards
     
     
     return (

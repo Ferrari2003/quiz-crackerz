@@ -1,7 +1,7 @@
 import React from 'react';
-
 import './Cart.css'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowAltCircleRight} from '@fortawesome/free-solid-svg-icons'
 
 
 const Cart = ({quiz}) => {
@@ -12,11 +12,10 @@ const Cart = ({quiz}) => {
            <img src={logo} alt="" />   
            <h3>{name}</h3> 
             <div className='btn'>
-
              <button>
-                Start Practice                
+                Start Quiz   
+                <FontAwesomeIcon className='icon' icon={faArrowAltCircleRight}></FontAwesomeIcon>          
                 </button>      
-
             </div>
        </div>
     );

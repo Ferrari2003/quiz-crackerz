@@ -2,6 +2,7 @@
     box-shadow: 20px 30px 40px gray;
     border-radius: 10px;
     padding: 10px;
+    
 }
 .carts img{
     width: 250px;
@@ -11,10 +12,14 @@
    
 }
 .btn button{
+    display: flex;
+    align-items: center;
+    
     border: none;
     padding: 6px;
     font-weight: bold;
     border-radius: 5px;
+    
 }
 .btn button:hover{
     background-color: cornflowerblue;color: white;
