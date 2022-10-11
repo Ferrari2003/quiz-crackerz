@@ -18,7 +18,7 @@ const Home = () => {
         <div className='home-container'>
             <div className='text'>
                 <div>
-                <h1>Welcome Card Quiz a</h1>
+                <h1>Welcome To My Card Quiz </h1>
                 <p>Welcome to our site Card quiz a. In our site you can learn many things <br />
                 about programming.You can play many quiz games.To start the game, <br />
                 Please got to the home page.

@@ -23,6 +23,7 @@ const App = () => {
       },
       {
         path:'/topics',
+        
         element: <Topics></Topics>
       },
      

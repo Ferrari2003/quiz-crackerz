@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './Cart.css'
 
 
@@ -11,7 +12,10 @@ const Cart = ({quiz}) => {
            <img src={logo} alt="" />   
            <h3>{name}</h3> 
             <div className='btn'>
-             <button>Start Practice </button>      
+
+             <button>
+                Start Practice                
+                </button>      
 
             </div>
        </div>
