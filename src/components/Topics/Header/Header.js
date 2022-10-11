@@ -13,7 +13,7 @@ const Header = () => {
             <NavLink   className={({ isActive }) => isActive ? 'active' : undefined  } to={'/statistics'}>Statistics</NavLink>
             <NavLink   className={({ isActive }) => isActive ? 'active' : undefined  } to={'/blog'}>Blog</NavLink>
            </nav>
-           
+          
         </div>
     );
 };

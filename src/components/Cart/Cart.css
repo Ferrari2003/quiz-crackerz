@@ -1,0 +1,18 @@
+.carts{
+    box-shadow: 20px 30px 40px gray;
+    border-radius: 10px;
+}
+.carts img{
+    width: 250px;
+    height: 250px;
+    background-color: lightslategray;
+    border-radius: 10px;
+}
+.btn button{
+    border: none;
+    padding: 2px;
+    font-weight: bold;
+}
+.btn button:hover{
+    background-color: cornflowerblue;color: white;
+}

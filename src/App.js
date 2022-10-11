@@ -16,8 +16,8 @@ const App = () => {
     children:[
       {
        path: '/',
-       loader: async() => {
-        return fetch(`https://openapi.programming-hero.com/api/quiz`)
+       loader: async() => {   
+        return fetch(`quiz.json`)
        },
        element: <Home></Home>
       },
@@ -33,6 +33,10 @@ const App = () => {
       {
         path:'/blog',
         element: <Blog></Blog>
+      },
+      {
+        path:'*',
+        element: <h1>This is route Not Found 404</h1>
       }
     ]
    }
