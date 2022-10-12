@@ -14,7 +14,7 @@ const Cart = ({quiz}) => {
                          <img src={logo}  alt=""  />   
                          <h3>{name}</h3> 
                          <div className='btn'>      
-                          <Link to={`/quiz${id}`}>
+                          <Link to={`/quiz/${id}`}>
                           <button>
                              Start Quiz   
                            <FontAwesomeIcon className='icon' icon={faArrowAltCircleRight}></FontAwesomeIcon>          
