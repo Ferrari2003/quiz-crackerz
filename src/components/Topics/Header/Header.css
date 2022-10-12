@@ -16,11 +16,12 @@
 }
 
 .header h1:hover{
-    background: black;
+    background: crimson;
     color: white;
     box-shadow: 20px 30px 40px white;
     border-radius: 10px; 
     transition: 1s ease-in-out; 
+    
    
 }
 .header nav a{

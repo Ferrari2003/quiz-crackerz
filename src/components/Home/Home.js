@@ -21,7 +21,7 @@ import logo from '../../photos/quiz-word-red-d-letters-to-illustrate-exam-evalua
                 </p>
                 </div>
                 <div>
-                    <img  src={logo} alt="" />
+                    <img  src={logo} alt=""  />
                 </div>
             </div>
             
